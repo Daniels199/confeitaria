@@ -1,0 +1,42 @@
+.px-6 {
+    padding-left: 12rem;
+    padding-right: 1.5rem;
+}
+footer {
+    background-color: #353232;
+    margin-top: 40px;
+    padding: 36px 26px;
+    height: 360px;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 16px;
+    justify-content: center;
+}
+
+footer i,
+footer a,
+footer div {
+    color: #fff;
+}
+
+footer .span_nome {
+    color: #70f2ba;
+}
+
+footer .sociais {
+    display: grid;
+    gap: 8px;
+    font-size: 1rem;
+    font-family: "Oswald";
+    font-weight: normal;
+}
+footer .sociais a{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+footer i{
+    font-size: 32px;
+    display: flex;
+    justify-content: end;
+}

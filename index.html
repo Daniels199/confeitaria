@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        .logo-img {
+            width: 150px;
+           
+            height: auto;
+           
+        }
+
+        .center-header {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-200">
+    <header class="bg-white py-4 px-4 md:px-8 flex justify-between items-center center-header"> 
+        <div>
+            <a href="#" class="flex items-center text-teal-900">
+                <img src="./imagens/logo2.jpg" alt="Cupcake" class="logo-img">
+            </a>
+        </div>
+        <nav class="hidden md:flex items-center space-x-4 font-medium">
+            <a href="#" class="text-teal-900 hover:text-blue-400">Home</a>
+            <a href="#ver-cardapio" class="text-teal-900 hover:text-blue-400">Cardápio</a>
+            <a href="https://wa.me/5521995963403" class="text-teal-900 hover:text-blue-400">Faça seu pedido</a>
+            <a href="#" class="text-teal-900 hover:text-blue-400">Sobre nós</a>
+        </nav>
+    </header>
+    <div class="container mx-auto mt-12 px-4 md:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center text-cyan-900">Descubra nossas especialidades que irão adoçar sua vida</h1>
+                <!-- Reduzi um pouco o tamanho do texto -->
+              <!--   <a href="#ver-cardapio" class="inline-block bg-rose-300 text-white px-6 py-2 rounded hover:bg-rose-400 transition duration-150 block mx-auto">Ver cardápio</a> <!-- Centralizei o botão -->
+            </div>
+            <div class="hidden md:block">
+                <img class="max-w-full" src="./imagens/baner.png">
+            </div>
+        </div>
+        <div id="ver-cardapio" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8"> 
+            <div class="bg-white rounded-lg p-4 flex flex-col items-center text-center"> 
+                <span class="text-xl md:text-2xl font-medium text-gray-800">Cupcake decorado</span> 
+                <img src="./imagens/bolo12.jpg" alt="Cupcake decorado" class="my-2 rounded-lg"> 
+                <p class="text-gray-600">R$ 5,00 unidade</p>
+            </div>
+            <div class="bg-white rounded-lg p-4 flex flex-col items-center text-center"> 
+                <span class="text-xl md:text-2xl font-medium text-gray-800">Bolo decorado</span> 
+                <img src="./imagens/bolo7.webp" alt="Bolo decorado" class="my-2 rounded-lg"> 
+                <p class="text-gray-600">R$ 150,00 2kg</p>
+            </div>
+            <div class="bg-white rounded-lg p-4 flex flex-col items-center text-center"> 
+                <span class="text-xl md:text-2xl font-medium text-gray-800">Naked cake</span> 
+                <img src="./imagens/bolo8.jpg" alt="Naked cake" class="my-2 rounded-lg"> 
+                <p class="text-gray-600">R$ 130,00 2kg</p>
+            </div>
+            <div class="bg-white rounded-lg p-4 flex flex-col items-center text-center"> 
+                <span class="text-xl md:text-2xl font-medium text-gray-800">Naked cake</span> 
+                <img src="./imagens/bolo9.webp" alt="Naked cake" class="my-2 rounded-lg"> 
+                <p class="text-gray-600">R$ 150,00 2kg</p>
+            </div>
+            <div class="bg-white rounded-lg p-4 flex flex-col items-center text-center"> 
+                <span class="text-xl md:text-2xl font-medium text-gray-800">Cupcake decorado</span> 
+                <img src="./imagens/bolo10.webp" alt="Cupcake decorado" class="my-2 rounded-lg"> 
+                <p class="text-gray-600">R$ 10,00 unidade</p>
+            </div>
+            <div class="bg-white rounded-lg p-4 flex flex-col items-center text-center"> 
+                <span class="text-xl md:text-2xl font-medium text-gray-800">Cupcake decorado</span> 
+                <img src="./imagens/bolo14.jpg" alt="Cupcake decorado" class="my-2 rounded-lg"> 
+                <p class="text-gray-600">R$ 10,00 unidade</p>
+            </div>
+        </div>
+        <div class="flex justify-center mt-8"> 
+            <a href="https://wa.me/5521995963403" class="inline-block bg-rose-300 text-white px-6 py-3 rounded hover:bg-rose-400 transition duration-150">
+                <i class="bi bi-whatsapp"></i> Pedir agora</a>
+        </div>
+    </div>
+    <footer id="m_footer">
+        <div class="sociais">
+          <div>
+            <a href="#" target="_blank">
+                <i class="bi bi-instagram"></i>
+              @SUAREDESOCIAL
+            </a>
+          </div>
+          <div>
+            <a href="#" target="_blank">
+                <i class="bi bi-tiktok"></i>
+              @SUAREDESOCIAL
+            </a>
+          </div>
+          <div>
+            <a href="#" target="_blank">
+                <i class="bi bi-youtube"></i>
+             @SUAREDESOCIAL
+            </a>
+          </div>
+        </div>
+        <div>
+          Copyright ©2024; by <span><a href="" target="_blank"><span
+                class="span_nome"></span></a></span> <span><a href="https://github.com/Daniels199"
+              target="_blank"><span class="span_nome">Daniel</span></a></span>
+        </div>
+      </footer>
+
+
+    
+   <!--  <footer class="bg-white py-6 mt-8"> 
+        <div class="container mx-auto px-4">
+            <p class="text-center text-gray-600">2024 Daniel Dev</p>
+        </div>
+    </footer> -->
+</body>
+
+</html>
